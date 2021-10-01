@@ -24,6 +24,7 @@ const Car = (props) => {
             textColor="black"
             text="Custom Order"
             onPress={() => console.log('custom')}
+            disabled={true}
           />
           <CarBtn
             type="primary"
