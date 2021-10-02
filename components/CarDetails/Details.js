@@ -18,7 +18,7 @@ const Details = ({ navigation, route }) => {
         </View>
       </View>
       <View style={styles.textContainer}>
-        <View style={{ position: 'absolute' }}>
+        <View>
           <Text style={styles.titleCar}>{car.name}</Text>
           <Text style={styles.titleCar}>{`Top speed: ${car.speed}`}</Text>
           <Text style={styles.description}>{car.description}</Text>

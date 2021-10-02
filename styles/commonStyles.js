@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     position: 'absolute',
-    marginTop: Dimensions.get('window').height-300,
+    marginTop: Dimensions.get('window').height - 300,
   },
   subTagline: {
     textDecorationLine: 'underline',
@@ -80,7 +81,7 @@ const styles = StyleSheet.create({
     marginLeft: '8%',
   },
   btn: {
-    backgroundColor: '#4D4D4D',
+    backgroundColor: '#222',
     padding: 10,
     borderRadius: 50,
     width: 120,
@@ -111,16 +112,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 25,
   },
+  description: {
+    padding: 5,
+    fontSize: 15,
+    alignSelf: 'center',
+  },
   textContainer: {
     position: 'absolute',
     marginTop: Dimensions.get('window').height - 300,
     width: Dimensions.get('window').width,
   },
   titleCar: {
-    alignSelf:'center',
-    fontWeight:'bold',
-    fontSize:22,
-    marginBottom:10,
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    fontSize: 20.4,
+    marginBottom: 10,
+    textDecorationLine:'underline',
   },
+  
 });
+
 export default styles;
