@@ -12,6 +12,11 @@ The clone is made using react-native which contains basic features like having a
 - Description of models
 
   
+## Demo
+Make sure you have expo installed in your mobile
+https://expo.dev/@vicky29/tesla-clone
+
+  
 ## Run Locally
 
 Clone the project
